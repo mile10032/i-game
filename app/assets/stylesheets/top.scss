@@ -1,0 +1,67 @@
+.back{
+  background-image: url("/backn.jpg");
+}
+.main-content{
+  background-color: black;
+  background-size: contain;
+  animation: anime1 0.01s ease infinite alternate;
+  @keyframes anime1 {
+    0% {
+      background-color: rgba(0, 0, 0, 0);
+      top: 50px;
+    }
+    100% {
+      background-color: rgba(0, 0, 0, 0.5);
+      top: 0;
+    }
+  }
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+}
+.heya{
+width: 400px;
+margin: auto;
+height: 100px;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+position:relative;
+background-image: url("/背景.jpg");
+filter: grayscale(80%);
+&__btn{
+  margin-top: 25px;
+  text-align: center;
+  color: gray;
+  font-size: 40px;
+  text-decoration: none;
+  line-height: 50px;
+  position: relative;
+}
+.me{ 
+  position: absolute;
+  border-radius: 50%;
+  top:10px;
+  left: 150px;
+  width: 80px;
+  height: 80px;
+}
+&__num{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+  color: yellow;
+  font-weight: 600;
+  font-size: 18px;
+}
+}
+// .heya::after {
+//   position: absolute;
+//   // content: '';
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   box-shadow: inset 0 0 15px 15px black;}
