@@ -1,0 +1,111 @@
+.chat {
+  background-image:url("/kowai.jpg");
+  background-color: black;
+  overflow: hidden;
+  &__head {
+    height: 100px;
+    background-size: 60px;
+    animation: anime 0.5s ease infinite alternate;
+    @keyframes anime {
+      0% {
+        background-color: rgba(0, 0, 0, 0);
+        top: 50px;
+      }
+      100% {
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+      }
+    }
+    &__timer {
+      background: rgba(255,255,255,0.1);
+      background-size: 200px;
+      background-position: center;
+      width: 100px;
+      height: 100px;
+      margin: auto;
+      img{
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        position: relative;
+      }
+      p{
+        top:30px;
+        left:720px;
+        position: absolute;
+        color :red;
+        text-align: center;
+        font-weight: 800;
+      }
+    }
+  }
+  &__content {
+    height: 589px;
+    animation: anime 0.5s ease infinite alternate;
+    @keyframes anime {
+      0% {
+        background-color: rgba(0, 0, 0, 0);
+        top: 50px;
+      }
+      100% {
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+      }
+    }
+    &__message {
+      // margin: 1.5em 15px 1.5em 0;
+      // padding: 0 5px;
+      width: 90px;
+      height: 90px;
+      line-height: 90px;
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      background: #a58eff;
+      border-radius: 30%;
+      // box-sizing: border-box;
+    
+    }
+  }
+  &__form {
+    bottom:0 ;
+    height: 100px;
+    background-color: gold;
+    display: flex;
+    &__box {
+      margin: 10px 0 20px 10px;
+      height: 30px;
+      .t-box {
+        width: 1300px;
+        height: 80px;
+        // padding-top: 10px;
+        // padding-left: 10px;
+      }
+    }
+    &__btn {
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 100px;
+      height: 80px;
+      background-color: greenyellow;
+     .s-btn{
+       margin-left: 10px;
+       margin-top: 15px;
+      display       : inline-block;
+      border-radius : 5%;     
+      font-size     : 20pt;        
+      text-align    : center;      
+      cursor        : pointer;     
+      padding       : 12px 12px;   
+      background    : #990000;     
+      color         : #ffffff;     
+      line-height   : 1em;         
+      opacity       : 1;           
+      transition    : .3s;         
+      box-shadow    : 6px 6px 4px #666666;
+     }
+      
+    }
+  }
+}

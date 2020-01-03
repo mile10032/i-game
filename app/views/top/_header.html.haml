@@ -1,0 +1,11 @@
+.header
+  .header__content
+    .header__content__name
+      = current_user.name
+    .header__content__menyu 
+      .header__content__menyu__new-room
+        =link_to "#", class: "heder__menyu__new-room" do
+          %p Hello World  
+      .header__content__menyu__edit-user
+        =link_to edit_user_path(current_user), class: "heder__menyu__edit-user" do
+          %p 変

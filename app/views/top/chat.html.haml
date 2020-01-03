@@ -1,0 +1,13 @@
+.chat
+  .chat__head
+    .chat__head__timer
+      = image_tag("/骸骨.jpg",  class: 'gazo')
+      %p 100
+  -# = render "chat-content"
+  .chat__content
+    .chat__content__message aaaaaaaa
+  .chat__form
+    .chat__form__box
+      %textarea{placeholder:"irero",class:"t-box"}
+    .chat__form__btn
+      %input{type:"submit",value:"送信",class:"s-btn"}
