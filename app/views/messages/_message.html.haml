@@ -1,0 +1,8 @@
+
+.chat__content__message{"data-message-id": "#{message.id}"}
+  .chat__content__message__user-name
+    = message.user.name
+  .chat__content__message__text
+    - if message.text.present?
+      %p.chat__content__message__text__bun
+        = message.text

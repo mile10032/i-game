@@ -1,0 +1,13 @@
+.back
+  .main-content
+    = render "header"
+    .heyas
+      - current_user.rooms.each do |room|
+        .heya
+          = link_to room_messages_path(room) do
+            .heya__name
+              = room.name
+            .heya__btn 入
+            = image_tag '/meme.jpg',class:'me'
+          .heya__num
+            = room.users.length
