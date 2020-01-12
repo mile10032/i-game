@@ -1,7 +1,10 @@
 .room-form {
+  height: 100vh                               ;
+  background-color: black;
   h1 {
     text-align: center;
     font-size: 28px;
+    color: red;
   }
   .text {
     padding: 0 20px;
@@ -16,6 +19,7 @@
   .hito {
     margin-top: 30px;
     text-align: center;
+    color: red;
   }
   .sousin {
     text-align: center;

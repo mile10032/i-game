@@ -53,5 +53,5 @@ $(function(){
       console.log('error');
     });
   };
-  setInterval(reloadMessages, 3000);
+  setInterval(reloadMessages, 7000);
 })

@@ -28,7 +28,7 @@
   margin-bottom: 20px;
   position: relative;
   background-image: url("/背景.jpg");
-  filter: grayscale(80%);
+  filter: grayscale(60%);
   border-color: 10px solid blue;
   border-radius: 2%;
   &__btn {
@@ -52,7 +52,9 @@
     position: absolute;
     padding-left: 20px;
     left: 0;
-    color: red;
+    color: yellow;
+    font-weight: 700;
+    margin-top: 10px;
   }
   &__num {
     position: absolute;
@@ -60,7 +62,7 @@
     right: 0;
     padding: 10px;
     text-align: center;
-    color: blue;
+    color: yellow;
     font-weight: 600;
     font-size: 18px;
   }
