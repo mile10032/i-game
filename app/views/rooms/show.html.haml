@@ -1,0 +1,5 @@
+= form_with model:@room do |f|
+  .hito
+      = f.collection_check_boxes :user_ids, User.all, :id, :name,class:"hito"
+    .sousin
+      = f.submit 

@@ -1,0 +1,6 @@
+= form_for [@room, @message] do |f|
+  .chat__form
+    .chat__form__box
+      = f.text_area :text, placeholder:"irero",class:"t-box"
+    .chat__form__btn
+      = f.submit "送信", class:"s-btn"
