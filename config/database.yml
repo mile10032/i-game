@@ -49,6 +49,9 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
   database: i-game_production
   username: i-game
   password: <%= ENV['I-GAME_DATABASE_PASSWORD'] %>
