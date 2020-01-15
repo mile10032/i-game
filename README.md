@@ -35,18 +35,24 @@ https://i-game.herokuapp.com/
 ### ユーザー登録
 deviseを用いて、ユーザー登録機能の実装を行った。 ログインしていないユーザーはログインページに自動で飛ばされる。
 ### トップページ
+![top](https://user-images.githubusercontent.com/57488122/72398247-c005b900-3785-11ea-9a86-efbef61896cc.png)
 ユーザーネームが表示される。
 ルーム作成ボタンとユーザー編集ボタンが有る。
 一人のユーザーが対戦ルームの作成を行い、ルーム一覧がトップページに表示される。
 ### 対戦ページ
 チャット機能がある。
+<img width="1437" alt="start" src="https://user-images.githubusercontent.com/57488122/72398895-dc0a5a00-3787-11ea-8778-5e0a6a0807a9.png">
 誰かが@startと入力したらゲームが始まる。（４人以下だと人数が足りませんと通知が出て始まらない）
+<img width="1437" alt="ChatSpace" src="https://user-images.githubusercontent.com/57488122/72399118-84202300-3788-11ea-8e05-7ecf4cb37c8e.png">
+
 ゲームが始まると、親と犯人にだけ自分の役割がメッセージで届き、答えも教えられる。
 ゲームが進み答えがわかったら
 @answer　xxxx
 と入力答えがあってると正解の通知が、間違えると違うと通知が出る。
 犯人を当てるフェーズも同様
 ユーザー好きなルームに入る。
+![wolf](https://user-images.githubusercontent.com/57488122/72398301-e62b5900-3785-11ea-86ff-4bd0a8264434.png)
+
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
