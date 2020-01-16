@@ -14,10 +14,7 @@
 @answer xxx で回答
 @wolf xxx で犯人の名前を指名
 xxxに任意の文字を入れる
-テストアカウント
-name: test
-adress: test@test
-password: a12345678
+
 ## 概要
 アプリ名：i-game
 
@@ -30,6 +27,10 @@ password: a12345678
 作業日数：1４日間
 
 https://i-game.herokuapp.com/
+テストアカウント
+name: test
+adress: test@test
+password: a12345678
 
 ## 作った経緯
 プログラミングスクールのTECH::EXPERTのカリキュラムの復習でチャット機能を用いた誰も作っていなそうなアプリを作ろうと思い制作した。
