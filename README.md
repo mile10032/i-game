@@ -99,4 +99,4 @@ deviseを用いて、ユーザー登録機能の実装を行った。 ログイ�
 - belongs_to :room
 
 ## ER図
-![名称未設定ファイル_drawio_-_draw_io-2](https://user-images.githubusercontent.com/57488122/72531835-a499cb80-38b5-11ea-9110-a78352e0c182.png)
+![名称未設定ファイル_drawio_-_draw_io-3](https://user-images.githubusercontent.com/57488122/72533028-c72ce400-38b7-11ea-9871-a32dc5e66bb7.png)
