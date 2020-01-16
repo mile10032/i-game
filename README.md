@@ -86,7 +86,7 @@ deviseを用いて、ユーザー登録機能の実装を行った。 ログイ�
 ### Association
 - has_many :user,  through:  :room_users
 - has_many  :messages
--has_many :room_users
+- has_many :room_users
 ## messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
