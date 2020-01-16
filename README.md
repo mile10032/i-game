@@ -97,3 +97,6 @@ deviseを用いて、ユーザー登録機能の実装を行った。 ログイ�
 ### Association
 - belongs_to :user
 - belongs_to :room
+
+## ER図
+![名称未設定ファイル_drawio_-_draw_io-2](https://user-images.githubusercontent.com/57488122/72531835-a499cb80-38b5-11ea-9110-a78352e0c182.png)
